@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Main from "./components/Main";
+import { GlobalStyles } from "./components/styles/Global";
+import { ThemeProvider } from "styled-components";
+import { light, blue, green, purple } from "./components/styles/Theme.styled";
+import React, { useState } from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Experience from "./components/Experience";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 function App() {
+  const [selectedTheme, setSelectedTheme] = useState(light);
+
+  const handleThemeChange = (theme) => {
+    setSelectedTheme(theme);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      
+
+      <ThemeProvider theme={selectedTheme}>
+        <GlobalStyles />
+        <Header handleThemeChange={handleThemeChange} />
+        <Main />
+      </ThemeProvider>
+    </>
   );
 }
 
