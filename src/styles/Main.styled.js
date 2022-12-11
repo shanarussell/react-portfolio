@@ -4,7 +4,7 @@ export const WindowWrapper = styled.div`
   background-color: ${({ theme }) => theme.colors.mainColor};
   border: 1px solid ${({ theme }) => theme.colors.borderColor};
   border-radius: 5px 5px 0 0;
-  margin: 0 0 50px 0;
+  margin: 0 50px 50px 50px;
 
   -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);

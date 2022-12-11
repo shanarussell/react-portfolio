@@ -11,8 +11,10 @@ import {
   NavigationLinks,
   ul,
   li,
-} from "./styles/Navigation.styled";
+} from "../styles/Navigation.styled";
 import { Outlet, Link } from "react-router-dom";
+import React from "react";
+
 
 export default function Navigation() {
   return (

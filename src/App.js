@@ -1,8 +1,8 @@
 import Header from "./components/Header";
 import Main from "./components/Main";
-import { GlobalStyles } from "./components/styles/Global";
+import { GlobalStyles } from "./styles/Global";
 import { ThemeProvider } from "styled-components";
-import { light, blue, green, purple } from "./components/styles/Theme.styled";
+import { light, blue, green, purple } from "./styles/Theme.styled";
 import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -19,8 +19,6 @@ function App() {
   };
   return (
     <>
-      
-
       <ThemeProvider theme={selectedTheme}>
         <GlobalStyles />
         <Header handleThemeChange={handleThemeChange} />

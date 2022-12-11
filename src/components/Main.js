@@ -13,13 +13,15 @@ import {
   RightSideHeader4,
   ul,
   li,
-} from "./styles/Main.styled";
+} from "../styles/Main.styled";
 import Navigation from "./Navigation";
 import Home from "./Home";
 import Experience from "./Experience";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import { Routes, Route } from "react-router-dom";
+import React from "react";
+
 
 export default function Main() {
   return (

@@ -9,11 +9,11 @@ import {
   ThemeDotLight,
   ThemeDotPurple,
   ThemeSettingsNote,
-} from "./styles/Header.styled";
-import { light, blue, green, purple } from "./styles/Theme.styled";
+} from "../styles/Header.styled";
+import { light, blue, green, purple } from "../styles/Theme.styled";
+import React from "react";
 
 export default function Header({ handleThemeChange }) {
-  console.log(handleThemeChange);
   return (
     <HeaderWrapper>
       <HelloWorld>

@@ -14,6 +14,7 @@ export const light = {
     navigationColor: "black",
     sidebarColor: "#edf2f7",
     rightWindowColor: "white",
+    screenColor: "#c1c1c1",
   },
 };
 
@@ -39,6 +40,7 @@ export const green = {
     navigationColor: "#256f15",
     sidebarColor: "#cbf8b1",
     rightWindowColor: "white",
+    screenColor: "black",
   },
 };
 
@@ -64,6 +66,7 @@ export const purple = {
     navigationColor: "#382a3f",
     sidebarColor: "#d7a3f7",
     rightWindowColor: "white",
+    screenColor: "#d7a3f7",
   },
 };
 
@@ -89,5 +92,6 @@ export const blue = {
     skillList: "#fff",
     sidebarColor: "#8892B0",
     rightWindowColor: "white",
+    screenColor: "black",
   },
 };
