@@ -132,15 +132,15 @@ export const SkillsList = styled.ul`
   color: ${({ theme }) => theme.colors.mainText};
   font-family: "Russo One", sans-serif;
   font-weight: 500;
-  list-style: none;
+
   margin-bottom: 10px;
 `;
 export const SkillsListLI = styled.li`
   color: ${({ theme }) => theme.colors.headerText};
   font-family: "Russo One", sans-serif;
   font-weight: 500;
-  list-style: none;
-  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-bottom: 10px;
 `;
 
 export const ExperienceH4 = styled.h4`

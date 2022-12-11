@@ -30,9 +30,9 @@ export const AboutWrapper = styled.div`
 export const FileGridWrapper = styled.div`
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 35px;
-  grid-template-areas: "file1 file2";
+  grid-template-areas: "file1" "file2";
 `;
 
 export const PhotoFileWrapper = styled.div`
@@ -40,6 +40,7 @@ export const PhotoFileWrapper = styled.div`
   flex-direction: column;
   grid-area: file1;
   border-radius: 15px;
+  width: 50%;
 `;
 
 export const FileBorder = styled.div`
@@ -77,6 +78,7 @@ export const FileName = styled.div`
 export const ParagraphText = styled.p`
   color: ${({ theme }) => theme.colors.paragraphText};
   font-family: "Roboto Mono", monospace;
+  margin-bottom: 15px;
 `;
 
 export const FileAndNameWrapper = styled.div`

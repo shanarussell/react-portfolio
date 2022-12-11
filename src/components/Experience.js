@@ -62,25 +62,72 @@ export default function Experience() {
 
       <ExperienceWrapper>
         <ExperienceH4>Work Experience</ExperienceH4>
-
+        <JobWrapper>
+          <ExperienceH5>Frontend Engineering Intern</ExperienceH5>
+          <ExperienceH6>Logikcull</ExperienceH6>
+          <ExperienceDates>10/2022 - 12/2022</ExperienceDates>
+          <SkillsList>
+            <SkillsListLI>
+              Researched the codebase, collaborated with senior developers on
+              solutions, implemented code solutions in React, Javascript, and
+              Typescript, wrote and merged pull requests, participated in code
+              reviews, implemented feedback, and shipped code to production.
+            </SkillsListLI>
+            <SkillsListLI>
+              Branched, committed, merged, and pushed code using Git{" "}
+            </SkillsListLI>
+            <SkillsListLI>
+              Utilized Visual Studio Code to develop code in React, Javascript,
+              and Typescript
+            </SkillsListLI>
+            <SkillsListLI>
+              Worked in an agile environment, participated in agile planning
+              meetings, and contributed to the overall team goals of the team
+            </SkillsListLI>
+            <SkillsListLI>
+              Communicated with other teams as necessary to find solutions to
+              questions outside of my team's scope
+            </SkillsListLI>
+            <SkillsListLI>
+              Worked remotely from my home office, utilizing company's Slack
+              channels and email for communication. Participated in meetings
+              using Zoom, Google Meet, and code collaboration with Pop.
+            </SkillsListLI>
+            <SkillsListLI>
+              Presented virtually to groups on 4 different occasions on topics
+              such as time management, effective presentations, and TypeScript.
+              Delivered my final internship presentation at a company all-hands
+              meeting.
+            </SkillsListLI>
+            <SkillsListLI>
+              Achieved Culler Level 1 certification:{" "}
+              <a
+                href="https://verify.skilljar.com/c/5jt5wo9yspis"
+                target="_blank"
+              >
+                Click here to view certification
+              </a>
+            </SkillsListLI>
+          </SkillsList>
+        </JobWrapper>
         <JobWrapper>
           <ExperienceH5>Educational Technology Administrator</ExperienceH5>
           <ExperienceH6>LEAH Schools, Houston, TX</ExperienceH6>
-          <ExperienceDates>06/2013 - Present</ExperienceDates>
+          <ExperienceDates>06/2013 - 10/2022</ExperienceDates>
           <SkillsList>
             <SkillsListLI>
-              Develop and administer both in-person and online computer and
+              Developed and administered both in-person and online computer and
               software training for approximately 1500 students and teachers
               throughout the organization
             </SkillsListLI>
             <SkillsListLI>
-              Provide in-person and remote technical support at an average of
+              Provided in-person and remote technical support at an average of
               140 incidents per month for students, teachers and staff on four
               campuses while consistently achieving the highest number of
               tickets solved per month
             </SkillsListLI>
             <SkillsListLI>
-              Facilitate technology purchases and work with administrators to
+              Facilitated technology purchases and worked with administrators to
               develop new ideas and strategies to optimize the effectiveness of
               the organization&#39;s technology
             </SkillsListLI>

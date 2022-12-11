@@ -15,7 +15,6 @@ import {
 import profilePic from "../images/my-profile-pic.png";
 import React from "react";
 
-
 export default function Home() {
   return (
     <RightSideWrapper>
@@ -49,13 +48,19 @@ export default function Home() {
                   front-end development.
                 </ParagraphText>
                 <ParagraphText>
-                  I have an Associates Degree in Graphic Design and I am
-                  currently a member of Merit America's Java Development
-                  program. This is a 30-week intensive program is focused on
-                  Full Stack Web Application Development, including hands-on
-                  coursework in Java Development, Client-Server Programming (SQL
-                  + Spring), and Frontend Development (Classic Web + React). I
-                  will complete this program in September 2022.
+                  I have an Associates Degree in Graphic Design and I am a
+                  graduate of Merit America's Java Development program. This
+                  program was a 30-week intensive program focused on Full Stack
+                  Web Application Development, including hands-on coursework in
+                  Java Development, Client-Server Programming (SQL + Spring),
+                  and Frontend Development (Classic Web + React).
+                </ParagraphText>
+                <ParagraphText>
+                  I recently completed a 3 month internship with Logikcull where
+                  I was a Frontend Engineering Intern. In this role, I had the
+                  opportunity to work on several projects involving React,
+                  Typescript, MUI and refactoring code originally built in
+                  Backbone.js.
                 </ParagraphText>
                 <ParagraphText>
                   I love to create. I am the type of person who is always

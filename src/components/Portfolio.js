@@ -30,9 +30,7 @@ export default function Portfolio() {
               href="https://github.com/shanarussell/text_based_vending_machine"
               target="_blank"
             >
-              <ProjectImages>
-                <img src={Capstone1Image} width={"100%"} alt="Capstone1" />
-              </ProjectImages>
+              <ProjectImages src={Capstone1Image} alt="Capstone1" />
             </a>
           </Project>
           <ProjectCaptionText>
@@ -73,9 +71,7 @@ export default function Portfolio() {
               href="https://github.com/shanarussell/TEnmo-capstone"
               target="_blank"
             >
-              <ProjectImages>
-                <img src={Capstone2Image} width={"100%"} alt="Capstone2" />
-              </ProjectImages>
+              <ProjectImages src={Capstone2Image} alt="Capstone2" />
             </a>
           </Project>
           <ProjectCaptionText>
@@ -127,23 +123,20 @@ export default function Portfolio() {
               in the Apple App store.
             </PortfolioParagraphs>
             <br />
-            <div class="github-link">
+            <GitHubLink>
               <a
                 href="https://apps.apple.com/us/app/nitefan-white-noise-fan-app/id1011621168"
                 target="_blank"
               >
-                <ProjectImages src={AppleLogo} />
+                <PortfolioLogo src={AppleLogo} />
               </a>
               <a
                 href="https://apps.apple.com/us/app/nitefan-white-noise-fan-app/id1011621168"
                 target="_blank"
               >
-                <PortfolioParagraphs>
-                  {" "}
-                  See this on the Apple App Store
-                </PortfolioParagraphs>
+                See this on the Apple App Store
               </a>
-            </div>
+            </GitHubLink>
           </ProjectCaptionText>
         </Project3Wrapper>
 
@@ -169,16 +162,13 @@ export default function Portfolio() {
                 href="https://apps.apple.com/us/developer/shana-russell/id1010975891?see-all=i-message-apps"
                 target="_blank"
               >
-                <ProjectImages src={AppleLogo} />
+                <PortfolioLogo src={AppleLogo} />
               </a>
               <a
                 href="https://apps.apple.com/us/developer/shana-russell/id1010975891?see-all=i-message-apps"
                 target="_blank"
               >
-                <PortfolioParagraphs>
-                  {" "}
-                  See this on the Apple App Store
-                </PortfolioParagraphs>
+                See this on the Apple App Store
               </a>
             </GitHubLink>
           </ProjectCaptionText>

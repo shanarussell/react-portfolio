@@ -10,7 +10,7 @@ export const PortfolioWrapper = styled.div`
   padding: 30px;
   align-items: flex-start;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
 `;
 
 export const Project1Wrapper = styled.div`
@@ -22,7 +22,7 @@ export const Project = styled.div`
   height: 100%;
 `;
 
-export const ProjectImages = styled.div`
+export const ProjectImages = styled.img`
   width: 100%;
 `;
 
@@ -34,10 +34,15 @@ export const GitHubLink = styled.div`
   display: flex;
   align-items: center;
   margin-right: 5px;
+  margin-bottom: 10px;
+  color: ${({ theme }) => theme.colors.paragraphText};
+  font-family: "Roboto Mono", monospace;
 `;
 
 export const PortfolioLogo = styled.img`
   height: 35px;
+  width: 35px;
+  margin-right: 10px;
 `;
 
 export const Project2Wrapper = styled.div`
