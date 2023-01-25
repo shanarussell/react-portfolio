@@ -3,10 +3,8 @@ import {
   RightSideWrapper,
   AboutWrapper,
   FileGridWrapper,
-  PhotoFileWrapper,
   FileContent,
   ParagraphText,
-  FileImage,
   FileName,
   FileBorder,
   FileAndNameWrapper,
@@ -21,27 +19,11 @@ export default function Home() {
       <RightSideHeadlines>About Me</RightSideHeadlines>
       <AboutWrapper>
         <FileGridWrapper>
-          <PhotoFileWrapper>
-            <FileBorder>
-              <FileContent>
-                <FileImage>
-                  <ImageStyle
-                    src={profilePic}
-                    width={"100%"}
-                    alt="Profile Pic"
-                  />
-                </FileImage>
-              </FileContent>
-            </FileBorder>
-
-            <FileName>
-              <ParagraphText>shana.jpg</ParagraphText>
-            </FileName>
-          </PhotoFileWrapper>
-
           <FileAndNameWrapper>
             <FileBorder>
               <FileContent>
+                <ImageStyle src={profilePic} alt="Profile Pic" />
+
                 <ParagraphText>
                   My name is Shana Russell and I am a software developer based
                   out of Houston, Texas, seeking a full time remote role in
@@ -69,6 +51,12 @@ export default function Home() {
                   sell in digital and physical form. I have over 20 years of
                   experience working on personal web projects and 6 years of
                   experience creating personal iOS projects.
+                </ParagraphText>
+                <ParagraphText>
+                  You can{" "}
+                  <a href="https://docs.google.com/document/d/13kqhDDGmNh8R6TgNEH9XJInLNuKH9Kp3JiB30Kp_EIo/edit?usp=sharing">
+                    view or download my resume here.
+                  </a>
                 </ParagraphText>
               </FileContent>
             </FileBorder>

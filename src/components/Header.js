@@ -17,7 +17,8 @@ export default function Header({ handleThemeChange }) {
   return (
     <HeaderWrapper>
       <HelloWorld>
-        &lt;&quot;Hello, World&quot;&gt; <br />I am Shana Russell
+        &lt;HelloWorld &#47; &gt; <br />
+        whoAmI = &quot;Shana Russell&quot;
       </HelloWorld>
 
       <ColorThemeWrapper>

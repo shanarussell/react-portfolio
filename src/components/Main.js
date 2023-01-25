@@ -9,10 +9,6 @@ import {
   RightWrapper,
   ToolbarUL,
   ToolbarLI,
-  RightSideParagraph,
-  RightSideHeader4,
-  ul,
-  li,
 } from "../styles/Main.styled";
 import Navigation from "./Navigation";
 import Home from "./Home";

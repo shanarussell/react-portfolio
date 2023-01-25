@@ -1,16 +1,8 @@
 import {
-  DotsWrapper,
-  ToolbarWrapper,
-  WindowWrapper,
-  Dot1,
-  Dot2,
-  Dot3,
-  ToolbarText,
   NavigationWrapper,
   NavigationLinksWrapper,
   NavigationLinks,
-  ul,
-  li,
+  NavigationUL,
 } from "../styles/Navigation.styled";
 import { Outlet, Link } from "react-router-dom";
 import React from "react";
@@ -20,7 +12,7 @@ export default function Navigation() {
   return (
     <NavigationWrapper>
       <NavigationLinksWrapper>
-        <ul>
+        <NavigationUL>
           <Link style={{ textDecoration: "none" }} to="/">
             <NavigationLinks>Home</NavigationLinks>
           </Link>
@@ -36,7 +28,7 @@ export default function Navigation() {
           <Link style={{ textDecoration: "none" }} to="/contact">
             <NavigationLinks>Contact</NavigationLinks>
           </Link>
-        </ul>
+        </NavigationUL>
       </NavigationLinksWrapper>
       <Outlet />
     </NavigationWrapper>

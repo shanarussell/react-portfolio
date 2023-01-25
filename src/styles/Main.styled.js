@@ -16,14 +16,24 @@ export const WindowWrapper = styled.div`
     "toolbar toolbar"
     "left-column right-column";
 
-  align-content: flex-start;
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    grid-template-areas:
+      "toolbar"
+      "left-column"
+      "right-column";
+  }
 `;
 
 export const ToolbarWrapper = styled.div`
   border-radius: 5px 5px 0 0;
   height: 3.5em;
   grid-area: toolbar;
-  border-bottom: 1px solid ${({ theme }) => theme.colors.borderColor};
+  border-bottom: 1px solid;
+  border-color: ${({ theme }) => theme.colors.borderColor};
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -87,13 +97,16 @@ export const ToolbarLI = styled.li`
 `;
 
 export const RightWrapper = styled.div`
-  grid-area: right-column;
-  align-content: center;
-  padding: 20px 20px 50px 20px;
-  background-color: ${({ theme }) => theme.colors.rightWindowColor};
-  height: 100%;
-  justify-content: center;
-`;
+         grid-area: right-column;
+         align-content: center;
+         width: 100%;
+         padding: 20px 20px 50px 20px;
+         background-color: ${({ theme }) => theme.colors.rightWindowColor};
+         height: 100%;
+         @media (max-width: 414px) {
+           padding: 0;
+         }
+       `;
 
 export const RightSideParagraph = styled.p`
   color: ${({ theme }) => theme.colors.paragraphText};
