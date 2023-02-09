@@ -24,6 +24,8 @@ export const PortfolioWrapper = styled.div`
       "logikcull-title"
       "logikcull-par-1"
       "logikcull-par-2"
+      "projectCoverLetter"
+      "projectRecipeGenerator"
       "project1"
       "project2"
       "project3"
@@ -56,8 +58,8 @@ export const ProjectCoverLetterWrapper = styled.div`
 `;
 
 export const ProjectRecipeWrapper = styled.div`
-         grid-area: projectRecipeGenerator;
-       `;
+  grid-area: projectRecipeGenerator;
+`;
 
 export const Project1Wrapper = styled.div`
   grid-area: project1;
