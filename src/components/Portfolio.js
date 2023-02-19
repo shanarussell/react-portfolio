@@ -128,6 +128,23 @@ export default function Portfolio() {
           <br />
           <GitHubLink>
             <a
+              href="https://github.com/shanarussell/openAI-cover-letter-generator-no-api-key"
+              target="_blank"
+            >
+              <PortfolioLogo src={PortfolioLogoImg} />
+            </a>
+            <a
+              href="https://github.com/shanarussell/openAI-cover-letter-generator-no-api-key"
+              target="_blank"
+            >
+              <PortfolioParagraphs>
+                {" "}
+                See this project on GitHub
+              </PortfolioParagraphs>
+            </a>
+          </GitHubLink>
+          <GitHubLink>
+            <a
               href="https://open-ai-cover-letter-generator-shanarussell.vercel.app/"
               target="_blank"
             >
@@ -200,15 +217,16 @@ export default function Portfolio() {
           <ProjectCaptionText>
             <PortfolioHeadlines>NiteFan Javascript Version</PortfolioHeadlines>
             <PortfolioParagraphs>
-              NiteFan helps users fall asleep
-              by playing the soothing sound of fans. The white noise produced by
-              fans can be very effective in blocking out external noise and
-              creating a relaxing environment, which can make it easier to fall
-              asleep. Additionally, NiteFan is available in both web and iOS
-              versions, making it easily accessible to a wide range of users.
-              The fact that both versions offer the same functionality and user
-              experience further enhances the overall user experience. I
-              included NiteFan in my portfolio to showcase my ability to develop solutions regardless of language or platform as well as my ability to create practical,
+              NiteFan helps users fall asleep by playing the soothing sound of
+              fans. The white noise produced by fans can be very effective in
+              blocking out external noise and creating a relaxing environment,
+              which can make it easier to fall asleep. Additionally, NiteFan is
+              available in both web and iOS versions, making it easily
+              accessible to a wide range of users. The fact that both versions
+              offer the same functionality and user experience further enhances
+              the overall user experience. I included NiteFan in my portfolio to
+              showcase my ability to develop solutions regardless of language or
+              platform as well as my ability to create practical,
               problem-solving projects.
             </PortfolioParagraphs>
             <br />
@@ -262,7 +280,10 @@ export default function Portfolio() {
               blinking indicator to alert users when a timer has completed. I
               built this version using React and am currently gathering feedback
               to add new features. I am also planning to create mobile app
-              versions for iOS and Android in the future. Even though this project is still in progress, I'm including it in my portfolio to show my skills in JavaScript and CSS, along with my ability to deliver a functional minimum viable solution.
+              versions for iOS and Android in the future. Even though this
+              project is still in progress, I'm including it in my portfolio to
+              show my skills in JavaScript and CSS, along with my ability to
+              deliver a functional minimum viable solution.
             </PortfolioParagraphs>
             <br />
             <GitHubLink>
